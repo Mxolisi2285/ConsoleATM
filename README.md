@@ -1,18 +1,26 @@
-# SimpleATMJava
+ATM Console Application
+A simple Java console application simulating basic ATM operations including user authentication, balance inquiries, cash withdrawal, deposits, fund transfers, PIN management, and transaction history tracking.
 
-A simple console-based ATM application built with Java. This project simulates basic ATM functionalities including user authentication via PIN, balance enquiry, cash withdrawal, cash deposit, and transaction history — all running in the console without any database.
+Features
+User authentication with username and PIN (masked input when supported)
 
----
+Check account balance
 
-## Features
+Withdraw cash with balance validation
 
-- User login with username and PIN authentication (3 attempts max)
-- View current account balance
-- Withdraw cash with balance validation
-- Deposit cash
-- View transaction history
-- Simple input validation and error handling
-- Supports multiple user accounts (hardcoded)
+Deposit cash
+
+Transfer funds between accounts
+
+Change account PIN securely
+
+View full transaction history
+
+View mini statement (last 5 transactions)
+
+Create new user accounts with PIN and initial deposit
+
+Basic input validation and error handling
 
 ---
 
